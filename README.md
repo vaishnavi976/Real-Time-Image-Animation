@@ -47,26 +47,26 @@ OpenFace (Facial Landmark Detection)
 
 ## Installation
 
-# Clone this repository:
+ Clone this repository:
 
 git clone https://github.com/your-repo-name.git
 cd your-repo-name
 
-# Install dependencies:
+Install dependencies:
 
 pip install -r requirements.txt
 
-# Install OpenFace:
+Install OpenFace:
 
 git clone https://github.com/TadasBaltrusaitis/OpenFace.git
 cd OpenFace
 ./install.sh
 
-# Install FFmpeg:
+Install FFmpeg:
 
 sudo apt install ffmpeg
 
-## Usage
+ Usage
 
 Preprocess the input image
 
@@ -92,7 +92,7 @@ Merge the animated frames into a video using FFmpeg.
 
 Sync the audio to the animated video.
 
-# Run the script
+Run the script
 
 python main.py --image path/to/image.jpg --audio path/to/audio.wav --output output.mp4
 

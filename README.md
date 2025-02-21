@@ -38,6 +38,7 @@ This project explores real-time image animation by leveraging the <ins>First-Ord
 pip install -r requirements.txt
 
 
+
 Install OpenFace:
 
 git clone https://github.com/TadasBaltrusaitis/OpenFace.git

@@ -1,60 +1,42 @@
-## Real-Time-Image-Animation
-Real-Time Image Animation Using First-Order Motion Model
+# Real-Time Image Animation Using First-Order Motion Model
 
-# Overview
+## Overview
+This project explores real-time image animation by leveraging the <ins>First-Order Motion Model</ins> to animate static images based on motion transfer from a source video. This approach utilizes deep learning techniques, including <ins>Generative Adversarial Networks (GANs)</ins> and motion estimation, to synthesize realistic animations.
 
-This project explores real-time image animation by leveraging the First-Order Motion Model to animate static images based on motion transfer from a source video. This approach utilizes deep learning techniques, including Generative Adversarial Networks (GANs) and motion estimation, to synthesize realistic animations.
+## Team Members
+- <ins>Ankita Kiran Sonawane</ins>
+- <ins>Vaishnavi Ganesh Chaudhari</ins>
+- <ins>Neha Dinesh Sonawane</ins>
+- <ins>Namrata Ambalal Navale</ins>
 
-# Team Members
+## Guide
+<ins>Mr. A. K. Patil</ins> - Assistant Professor, AIML Department, R.C. Patel Institute of Technology, Shirpur
 
-Ankita Kiran Sonawane
+## Features
+- <ins>Real-time image animation</ins> using motion transfer.
+- Works with <ins>any static image</ins>.
+- High-quality <ins>facial motion synthesis</ins>.
+- <ins>Lip-syncing</ins> capabilities for talking face animation.
+- Optimized model for <ins>efficient inference</ins>.
 
-Vaishnavi Ganesh Chaudhari
-
-Neha Dinesh Sonawane
-
-Namrata Ambalal Navale
-
-# Guide
-
-Mr. A. K. Patil - Assistant Professor, AIML Department, R.C. Patel Institute of Technology, Shirpur
-
-# Features
-
-Real-time image animation using motion transfer.
-
-Works with any static image.
-
-High-quality facial motion synthesis.
-
-Lip-syncing capabilities for talking face animation.
-
-Optimized model for efficient inference.
-
-# Technologies Used
-
-Python 3.6+
-
-PyTorch (Deep Learning Framework)
-
-OpenCV (Image Processing)
-
-TorchAudio (Audio Processing)
-
-FFmpeg (Video Rendering)
-
-OpenFace (Facial Landmark Detection)
+## Technologies Used
+- <ins>Python 3.6+</ins>
+- <ins>PyTorch</ins> (Deep Learning Framework)
+- <ins>OpenCV</ins> (Image Processing)
+- <ins>TorchAudio</ins> (Audio Processing)
+- <ins>FFmpeg</ins> (Video Rendering)
+- <ins>OpenFace</ins> (Facial Landmark Detection)
 
 ## Installation
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/your-repo-name.git
+   cd your-repo-name
 
- Clone this repository:
-
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
-
-Install dependencies:
+2. Install dependencies:
 
 pip install -r requirements.txt
+
 
 Install OpenFace:
 
@@ -67,67 +49,45 @@ Install FFmpeg:
 sudo apt install ffmpeg
 
  Usage
-
 Preprocess the input image
 
-Align and crop the face from the static image.
-
-Detect facial landmarks using OpenFace.
-
+<ins>Align and crop</ins> the face from the static image.
+Detect <ins>facial landmarks</ins> using OpenFace.
 Convert Audio to Phonemes
 
-Extract phonemes using Torchaudio or PocketSphinx.
-
-Map phonemes to facial movements.
-
+Extract phonemes using <ins>Torchaudio</ins> or <ins>PocketSphinx</ins>.
+Map phonemes to <ins>facial movements</ins>.
 Generate Facial Animation
 
-Use the First-Order Motion Model to synthesize motion.
-
-Apply facial expressions based on extracted features.
-
+Use the <ins>First-Order Motion Model</ins> to synthesize motion.
+Apply <ins>facial expressions</ins> based on extracted features.
 Render the Video
 
-Merge the animated frames into a video using FFmpeg.
-
-Sync the audio to the animated video.
-
+Merge the animated frames into a video using <ins>FFmpeg</ins>.
+Sync the <ins>audio</ins> to the animated video.
 Run the script
 
+sh
+Copy
+Edit
 python main.py --image path/to/image.jpg --audio path/to/audio.wav --output output.mp4
+Results
+High-quality <ins>animations</ins> with realistic facial movements.
+Adaptability to <ins>unseen speakers</ins> and expressions.
+<ins>Real-time</ins> or near real-time inference on consumer-grade GPUs.
+Applications
+Virtual Assistants: Creating realistic <ins>AI-driven avatars</ins>.
+Education: Animating <ins>historical figures</ins> for digital learning.
+Entertainment: Generating realistic animations for <ins>movies and games</ins>.
+Accessibility: Assisting <ins>speech-impaired individuals</ins> through talking avatars.
+Future Work
+Improve <ins>real-time performance</ins> for mobile devices.
+Enhance <ins>emotion recognition</ins> and expression mapping.
+Integrate support for more <ins>diverse languages</ins> and accents.
+Acknowledgment
+We extend our gratitude to our mentor <ins>Mr. A. K. Patil</ins> and <ins>R.C. Patel Institute of Technology</ins> for their guidance and support throughout this project.
 
-# Results
-
-High-quality animations with realistic facial movements.
-
-Adaptability to unseen speakers and expressions.
-
-Real-time or near real-time inference on consumer-grade GPUs.
-
-# Applications
-
-Virtual Assistants: Creating realistic AI-driven avatars.
-
-Education: Animating historical figures for digital learning.
-
-Entertainment: Generating realistic animations for movies and games.
-
-Accessibility: Assisting speech-impaired individuals through talking avatars.
-
-# Future Work
-
-Improve real-time performance for mobile devices.
-
-Enhance emotion recognition and expression mapping.
-
-Integrate support for more diverse languages and accents.
-
-# Acknowledgment
-
-We extend our gratitude to our mentor Mr. A. K. Patil and R.C. Patel Institute of Technology for their guidance and support throughout this project.
-
-# Contact
-
+Contact
 For any queries, feel free to reach out:
 
-Email: vaishchaudhari976@gmail.com
+Email: <ins>vaishchaudhari976@gmail.com</ins>

@@ -35,23 +35,20 @@ This project explores real-time image animation by leveraging the <ins>First-Ord
 
 2. Install dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
+3. Install OpenFace:
 
+   git clone https://github.com/TadasBaltrusaitis/OpenFace.git
+   cd OpenFace
+   ./install.sh
 
-Install OpenFace:
+4. Install FFmpeg:
 
-git clone https://github.com/TadasBaltrusaitis/OpenFace.git
-cd OpenFace
-./install.sh
+   sudo apt install ffmpeg
 
-Install FFmpeg:
-
-sudo apt install ffmpeg
-
- Usage
+ ## Usage
 Preprocess the input image
-
 <ins>Align and crop</ins> the face from the static image.
 Detect <ins>facial landmarks</ins> using OpenFace.
 Convert Audio to Phonemes
@@ -68,11 +65,8 @@ Merge the animated frames into a video using <ins>FFmpeg</ins>.
 Sync the <ins>audio</ins> to the animated video.
 Run the script
 
-sh
-Copy
-Edit
 python main.py --image path/to/image.jpg --audio path/to/audio.wav --output output.mp4
-Results
+## Results
 High-quality <ins>animations</ins> with realistic facial movements.
 Adaptability to <ins>unseen speakers</ins> and expressions.
 <ins>Real-time</ins> or near real-time inference on consumer-grade GPUs.
@@ -81,14 +75,15 @@ Virtual Assistants: Creating realistic <ins>AI-driven avatars</ins>.
 Education: Animating <ins>historical figures</ins> for digital learning.
 Entertainment: Generating realistic animations for <ins>movies and games</ins>.
 Accessibility: Assisting <ins>speech-impaired individuals</ins> through talking avatars.
-Future Work
+## Future Work
 Improve <ins>real-time performance</ins> for mobile devices.
 Enhance <ins>emotion recognition</ins> and expression mapping.
 Integrate support for more <ins>diverse languages</ins> and accents.
-Acknowledgment
+
+## Acknowledgment
 We extend our gratitude to our mentor <ins>Mr. A. K. Patil</ins> and <ins>R.C. Patel Institute of Technology</ins> for their guidance and support throughout this project.
 
-Contact
+## Contact
 For any queries, feel free to reach out:
 
 Email: <ins>vaishchaudhari976@gmail.com</ins>

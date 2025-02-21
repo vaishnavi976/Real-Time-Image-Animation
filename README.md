@@ -94,6 +94,14 @@ Education: Animating historical figures for digital learning.
 Entertainment: Generating realistic animations for movies and games.
 
 Accessibility: Assisting speech-impaired individuals through talking avatars.
+## Real Time Image Animation
+
+### **Front-End Interface**
+![Front-End](https://raw.githubusercontent.com/vaishnavi976/Real-Time-Image-Animation/main/Front%20End.png)
+
+### **Generated Video Output**
+![Generated Video](https://raw.githubusercontent.com/vaishnavi976/Real-Time-Image-Animation/main/Output%20Image.png)
+
 
 ## Future Work
 

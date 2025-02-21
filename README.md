@@ -47,43 +47,68 @@ This project explores real-time image animation by leveraging the <ins>First-Ord
 
    sudo apt install ffmpeg
 
- ## Usage
+## Usage
+
 Preprocess the input image
-<ins>Align and crop</ins> the face from the static image.
-Detect <ins>facial landmarks</ins> using OpenFace.
+
+Align and crop the face from the static image.
+
+Detect facial landmarks using OpenFace.
+
 Convert Audio to Phonemes
 
-Extract phonemes using <ins>Torchaudio</ins> or <ins>PocketSphinx</ins>.
-Map phonemes to <ins>facial movements</ins>.
+Extract phonemes using Torchaudio or PocketSphinx.
+
+Map phonemes to facial movements.
+
 Generate Facial Animation
 
-Use the <ins>First-Order Motion Model</ins> to synthesize motion.
-Apply <ins>facial expressions</ins> based on extracted features.
+Use the First-Order Motion Model to synthesize motion.
+
+Apply facial expressions based on extracted features.
+
 Render the Video
 
-Merge the animated frames into a video using <ins>FFmpeg</ins>.
-Sync the <ins>audio</ins> to the animated video.
+Merge the animated frames into a video using FFmpeg.
+
+Sync the audio to the animated video.
+
 Run the script
 
 python main.py --image path/to/image.jpg --audio path/to/audio.wav --output output.mp4
+
 ## Results
-High-quality <ins>animations</ins> with realistic facial movements.
-Adaptability to <ins>unseen speakers</ins> and expressions.
-<ins>Real-time</ins> or near real-time inference on consumer-grade GPUs.
-Applications
-Virtual Assistants: Creating realistic <ins>AI-driven avatars</ins>.
-Education: Animating <ins>historical figures</ins> for digital learning.
-Entertainment: Generating realistic animations for <ins>movies and games</ins>.
-Accessibility: Assisting <ins>speech-impaired individuals</ins> through talking avatars.
+
+High-quality animations with realistic facial movements.
+
+Adaptability to unseen speakers and expressions.
+
+Real-time or near real-time inference on consumer-grade GPUs.
+
+## Applications
+
+Virtual Assistants: Creating realistic AI-driven avatars.
+
+Education: Animating historical figures for digital learning.
+
+Entertainment: Generating realistic animations for movies and games.
+
+Accessibility: Assisting speech-impaired individuals through talking avatars.
+
 ## Future Work
-Improve <ins>real-time performance</ins> for mobile devices.
-Enhance <ins>emotion recognition</ins> and expression mapping.
-Integrate support for more <ins>diverse languages</ins> and accents.
+
+Improve real-time performance for mobile devices.
+
+Enhance emotion recognition and expression mapping.
+
+Integrate support for more diverse languages and accents.
 
 ## Acknowledgment
-We extend our gratitude to our mentor <ins>Mr. A. K. Patil</ins> and <ins>R.C. Patel Institute of Technology</ins> for their guidance and support throughout this project.
+
+We extend our gratitude to our mentor Mr. A. K. Patil and R.C. Patel Institute of Technology for their guidance and support throughout this project.
 
 ## Contact
+
 For any queries, feel free to reach out:
 
-Email: <ins>vaishchaudhari976@gmail.com</ins>
+Email: vaishchaudhari976@gmail.com
